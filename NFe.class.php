@@ -149,7 +149,7 @@ class NFe
       'cache_wsdl' => WSDL_CACHE_NONE
     );
 
-    $this->connectionSoap = new ConnectionSoap( $wsdl, $params );
+    $this->connectionSoap = new SoapClient( $wsdl, $params );
   }
 
 
