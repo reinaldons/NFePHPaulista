@@ -4,6 +4,8 @@ NFePHPaulista are two classes for NF-e Paulista Webservices communication. Those
 
 FAQ NFe Paulista: http://www.prefeitura.sp.gov.br/portal/nfe/perguntas_mais_frequentes/index.php?content=faq
 Doc Webservices: http://ww2.prefeitura.sp.gov.br/nfe/files/NFe-Web-Service-v2-2.pdf
+IBGE City Codes: http://www.ibge.gov.br/concla/cod_area/cod_area.php
+                 http://www.ibge.gov.br/concla/cod_area/tabela_municipios.xls
 
 ---
 
@@ -25,6 +27,8 @@ Simple example for NFeRPS Array population:
   $totalServicesValue = 0;
   foreach ( $yourInfoArray as $invoice ) {
     $nfeRPS = new NFeRPS();
+    /* ContractorRPS is aggregate on NFeRPS */
+    /* $nfeRPS->$contractorRPS = new ContractorRPS(); */
     
     /* Your logic for $nfeRPS population. You can make a __construct for NFeRPS */
   
