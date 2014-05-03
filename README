@@ -1,4 +1,13 @@
-Simple doc for NFePHPaulista
+## ATTENTION!
+
+> I don't work with PHP since 2012 and have no more contact with the system that I created this classes for since 2011.
+> Please, if you have improvements for this project or updates, fork this project and help others with your updates :D
+> I can't accept pull request because I have no way to test.
+>
+> Thanks!
+
+
+## Simple doc for NFePHPaulista
 
 NFePHPaulista are two classes for NF-e Paulista Webservices communication. Those classes are both in MIT License. 
 
@@ -67,4 +76,3 @@ ConsultaNFeEmitidasResponse ConsultaNFeEmitidas() --------: queryNFeIssued
 ConsultaLoteResponse ConsultaLote() ----------------------: queryBatch
 ConsultaInformacoesLoteResponse ConsultaInformacoesLote() : queryBatchInfo
 ConsultaCNPJResponse ConsultaCNPJ() ----------------------: queryCNPJ
-
